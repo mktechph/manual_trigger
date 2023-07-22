@@ -1,0 +1,13 @@
+name: Test Manual Trigger
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  run-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test Run
+        run: echo "Hello world!"
+        
+        
